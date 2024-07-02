@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 //VISTAS DE AUTENTIFICACION
 import { AutentificacionRoutingModule } from './autentificacion-routing.module';
 import { RegistroComponent } from './pages/registro/registro.component';
-import { IniciosesionComponent } from './pages/inicio-sesion/inicio-sesion.component';
+/*import { IniciosesionComponent } from './pages/inicio-sesion/inicio-sesion.component';*/
 
 //COMPONENTES DE MATERIAL
 import {MatIconModule} from '@angular/material/icon';
@@ -20,7 +20,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     RegistroComponent,
-    IniciosesionComponent
+    /*IniciosesionComponent*/
   ],
   imports: [
     CommonModule,
@@ -35,7 +35,7 @@ import { FormsModule } from '@angular/forms';
   
   exports: [
     RegistroComponent,
-    IniciosesionComponent,
+    /*IniciosesionComponent,*/
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,

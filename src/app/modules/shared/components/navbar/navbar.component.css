@@ -1,0 +1,60 @@
+.container-fluid {
+    background-color: #07501D;
+    display: flex;
+}
+
+#navegador {
+    padding: 0;
+}
+
+.logo {
+    width: 70px;
+}
+
+#pinicio {
+    color: #FA641B;
+}
+
+#pproductos {
+    color: #FA641B;
+}
+
+#pquienes {
+    color: #FA641B;
+}
+
+#pcontactos {
+    color: #FA641B;
+
+}
+
+#buscador {
+    padding-right: 450px;
+}
+
+#botonb {
+    background-color: #FA641B;
+    color: white;
+}
+
+input {
+    background-color: #ff884d;
+}
+
+.boton {
+    background-color: #07501D;
+   margin-right: 5px;
+    border: none;
+}
+
+mat-icon {
+    color: #FA641B;
+    display: flex;
+}
+
+@media (min-width:300px) and (max-width:700px) {
+    nav{
+        background-color: cadetblue;
+    }
+
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+/*import { Component } from '@angular/core';
 import { Usuario } from 'src/app/models/usuario';
 import { AuthService } from '../../services/auth.service';
 import { FirestoreService } from 'src/app/modules/shared/services/firestore.service';
@@ -36,7 +36,7 @@ export class IniciosesionComponent {
     email:this.usuarioIngresado.email,
     password:this.usuarioIngresado.password
   }
-  const res= await this.servicoAuth.iniciarSesion(credenciales.email, credenciales.password)
+  const res= await this.servicoAuth.iniciarsesion(credenciales.email, credenciales.password)
   .then(res =>{
     alert('se pudo iniciar sesion');
     this.servicioRutas.navigate(['/Inicio'])
@@ -55,4 +55,4 @@ export class IniciosesionComponent {
   }
  }
 
- }
+ }*/
