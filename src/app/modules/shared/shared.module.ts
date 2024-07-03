@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -13,12 +15,16 @@ import {MatIconModule} from '@angular/material/icon';
   ],
   imports: [
     CommonModule,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule,
+    MatListModule
   ],
   exports:[
     NavbarComponent,
     FooterComponent,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule,
+    MatListModule
   ]
 })
 export class SharedModule { }
